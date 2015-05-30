@@ -1,0 +1,20 @@
+﻿1>------ Построение начато: проект: PCSC, Конфигурация: Debug Win32 ------
+1>Построение начато 08.05.2015 18:37:52.
+1>InitializeBuildStatus:
+1>  Создание ".\Debug\PCSC.unsuccessfulbuild", так как было задано "AlwaysCreate".
+1>ClCompile:
+1>  main.cpp
+1>main.cpp(243): warning C4101: cPos: неиспользованная локальная переменная
+1>c:\documents and settings\admin\мои документы\bankomat\main.cpp(124): warning C4715: calc: значение возвращается не при всех путях выполнения
+1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Documents and Settings\Admin\Мои документы\bankomat\.\Debug\PCSC.exe) не соответствует значению свойства выходного файла (C:\Documents and Settings\Admin\Мои документы\bankomat\Debug\CardReader.exe) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(PCSC) не соответствует значению свойства выходного файла (CardReader) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+1>Link:
+1>  PCSC.vcxproj -> C:\Documents and Settings\Admin\Мои документы\bankomat\.\Debug\PCSC.exe
+1>FinalizeBuildStatus:
+1>  Файл ".\Debug\PCSC.unsuccessfulbuild" удаляется.
+1>  Обращение к ".\Debug\PCSC.lastbuildstate".
+1>
+1>Построение успешно завершено.
+1>
+1>Затраченное время: 00:00:03.29
+========== Построение: успешно: 1, с ошибками: 0, без изменений: 0, пропущено: 0 ==========

@@ -1,0 +1,22 @@
+﻿Сборка начата 10.05.2015 17:25:11.
+     1>Проект "C:\bankomat\PCSC.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\Header /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\bankomat\main.cpp(124): warning C4715: calc: значение возвращается не при всех путях выполнения
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\bankomat\.\Debug\PCSC.exe) does not match the Linker's OutputFile property value (C:\bankomat\Debug\CardReader.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(PCSC) does not match the Linker's OutputFile property value (CardReader). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug/CardReader.exe" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib winscard.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug/SIM.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\PCSC.lib" /MACHINE:X86 /SAFESEH .\Debug/clessCardType.obj
+         .\Debug/main.obj
+         .\Debug/pcsc.obj
+         .\Debug/SCardGetErrorString.obj
+         .\Debug/util.obj
+         PCSC.vcxproj -> C:\bankomat\.\Debug\PCSC.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\Debug\PCSC.bsc" .\Debug\clessCardType.sbr .\Debug\main.sbr .\Debug\pcsc.sbr .\Debug\SCardGetErrorString.sbr .\Debug\util.sbr
+     1>Сборка проекта "C:\bankomat\PCSC.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:04.90
